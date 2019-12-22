@@ -17,6 +17,7 @@
 	$nome = "Alvaro Ernani Fonseca Mota";
 	$idade = 23;
 	echo $nome. " tem ". $idade. " anos e nasceu no ano de ". $ano;
+	print "<br> testando o print";
 	?>
 </body>
 
