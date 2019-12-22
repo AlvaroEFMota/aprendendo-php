@@ -17,7 +17,16 @@
 	$nome = "Alvaro Ernani Fonseca Mota";
 	$idade = 23;
 	echo $nome. " tem ". $idade. " anos e nasceu no ano de ". $ano."<br>";
-	print "testando o print ";
+	print "testando o print <br>";
+	echo gettype($idade);
+	$num1 = 10;
+	$num2 = 5.55;
+	echo "<br> soma de 10 + 5.55 = ", ($num1 + $num2);
+	echo "<br>tipo de 10 ", gettype($num1);
+	echo "<br>tipo de 5.55 ", gettype($num2);
+	echo "<br>tipo de 10 + 5.55 ", gettype($num1+$num2);
+	echo "<hr>	 $nome tem  $idade anos e nasceu no ano de $ano <br>";
+	echo "<hr> var_dump de 10 ", var_dump($num1);
 	?>
 </body>
 
