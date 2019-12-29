@@ -27,7 +27,9 @@
 	echo "<br>tipo de 10 + 5.55 ", gettype($num1+$num2);
 	echo "<hr>	 $nome tem  $idade anos e nasceu no ano de $ano <br>";
 	echo "<hr> var_dump de 10 ", var_dump($num1), "<br>";
-	echo "teste do valor da variável \$num1 que vale $num1 <br>";
+	echo "teste do valor da variável \$num1 que vale $num1 <hr>";
+	echo $_SERVER["PHP_SELF"],"<br>";
+	echo htmlspecialchars("<br> br");
 	?>
 </body>
 
